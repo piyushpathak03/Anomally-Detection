@@ -1,0 +1,6 @@
+Test_pred=model1.predict(test3)
+Test_pred=pd.DataFrame(Test_pred)
+Test_pred['Merchant_ID']=test_data.Merchant_ID
+Test_pred1=pd.DataFrame(Test_pred1)
+Test_pred1
+Test_pred.to_csv('pred_1.csv',index=True)
